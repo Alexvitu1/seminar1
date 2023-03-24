@@ -24,7 +24,7 @@ a = -9 b = -3 -> max = -3
 */
 
 // Задача 2
-/*
+
 Console.Clear();
 System.Console.Write("Введите число А: ");
 int numberA = Convert.ToInt32(System.Console.ReadLine());
@@ -35,9 +35,10 @@ if (numberA > numberB){
 } else{
         System.Console.WriteLine($"max = {numberB}");
 }
-*/
+
 
 // Задача 4
+
 Console.Clear();
 System.Console.Write("Введите число А: ");
 int numberA = Convert.ToInt32(System.Console.ReadLine());
@@ -57,8 +58,18 @@ if (numberС > max){
 }
 System.Console.WriteLine($"max = {max}");
 
+
 // Задача 6
 
+Console.Clear();
+System.Console.Write("Введите число: ");
+int number = Convert.ToInt32(System.Console.ReadLine());
+if(number % 2 == 0){
+    System.Console.WriteLine("число четное");
+} else{
+        System.Console.WriteLine("число нечетное");
+
+}
 
 
 // Задача 8
