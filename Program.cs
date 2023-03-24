@@ -36,7 +36,6 @@ if (numberA > numberB){
         System.Console.WriteLine($"max = {numberB}");
 }
 
-
 // Задача 4
 
 Console.Clear();
@@ -58,7 +57,6 @@ if (numberС > max){
 }
 System.Console.WriteLine($"max = {max}");
 
-
 // Задача 6
 
 Console.Clear();
@@ -71,5 +69,13 @@ if(number % 2 == 0){
 
 }
 
-
 // Задача 8
+
+Console.Clear();
+System.Console.Write("Введите число: ");
+int number = Convert.ToInt32(System.Console.ReadLine());
+int index = 2;
+while (index < number){
+    System.Console.WriteLine(index);
+    index += 2;    
+}
