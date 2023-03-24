@@ -35,8 +35,8 @@ if (numberA > numberB){
 } else{
         System.Console.WriteLine($"max = {numberB}");
 }
-
 */
+
 // Задача 4
 Console.Clear();
 System.Console.Write("Введите число А: ");
